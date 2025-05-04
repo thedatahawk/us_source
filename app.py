@@ -230,7 +230,51 @@ server = app.server
 
 app.layout = html.Div([
     html.H1("U.S. Manufacturing Exposure by Country and Industry"),
-    
+    html.Div([
+        html.P([
+            "This data tool is based on the work of Richard Baldwin, Rebecca Freeman & Angelos Theodorakopoulos as described in ",
+            html.A(
+                "Hidden Exposure: Measuring US Supply Chain Reliance",
+                href="https://www.nber.org/papers/w31820",
+                target="_blank", rel="noopener noreferrer"
+            ),
+            " and ",
+            html.A(
+                "Horses for Courses: Measuring Foreign Supply Chain Exposure",
+                href="https://www.nber.org/papers/w30525",
+                target="_blank", rel="noopener noreferrer"
+            ),
+            "."
+        ]),
+        html.P([
+            "I am not affiliated in any way with the authors; any errors in the data tool are my own. Source data are from ",
+            html.A(
+                "OECD Trade in Value-Added.",
+                href="https://www.oecd.org/en/topics/sub-issues/trade-in-value-added.html",
+                target="_blank", rel="noopener noreferrer"
+            ),
+            "."
+        ]),
+        html.P([
+            "Note: the authors used manufacturing-to-manufacturing exposure, but this tool covers all goods and services. For manufacturing-to-manufacturing exposure by country, see ",
+            html.A(
+                "World Source",
+                href="https://world-source.onrender.com/",
+                target="_blank", rel="noopener noreferrer"
+            ),
+            "."
+        ]),
+        html.P("This tool displays three estimates of U.S. production exposure in goods and services:"),
+        html.Ul([
+            html.Li("Face Value"),
+            html.Li("Look Through"),
+            html.Li("Hidden")
+        ])
+    ]),
+
+
+
+
     html.Div([
         html.Label("Select Sourcing Industry:"),
         dcc.Dropdown(
