@@ -1,12 +1,13 @@
 """
-Input-Output data loading and processing modules.
+Analysis modules for Input-Output calculations.
 """
 
-from .loader import ICIODataLoader
-from .cleaner import clean_icio_data, extract_country_sector
+from .leontief import LeontiefAnalyzer
+from .value_added import ValueAddedDecomposition
+from .exposure import ExposureCalculator
 
 __all__ = [
-    'ICIODataLoader',
-    'clean_icio_data',
-    'extract_country_sector',
+    'LeontiefAnalyzer',
+    'ValueAddedDecomposition',
+    'ExposureCalculator',
 ]
