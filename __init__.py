@@ -1,13 +1,21 @@
 """
-Analysis modules for Input-Output calculations.
+Utility functions for OECD ICIO Analysis Package.
 """
 
-from .leontief import LeontiefAnalyzer
-from .value_added import ValueAddedDecomposition
-from .exposure import ExposureCalculator
+from .helpers import (
+    df_melt,
+    generate_sector_groups,
+    validate_matrix_dimensions,
+    check_matrix_singularity,
+    safe_matrix_inverse,
+)
+from .logging_config import setup_logger
 
 __all__ = [
-    'LeontiefAnalyzer',
-    'ValueAddedDecomposition',
-    'ExposureCalculator',
+    'df_melt',
+    'generate_sector_groups',
+    'validate_matrix_dimensions',
+    'check_matrix_singularity',
+    'safe_matrix_inverse',
+    'setup_logger',
 ]
