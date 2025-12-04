@@ -1,0 +1,51 @@
+industry_code,industry_names
+A01,Agriculture
+A02,Forestry
+A03,Fishing
+B05,Coal mining
+B06,Oil & gas
+B07,Metal ore mining
+B08,Other mining
+B09,Mining support
+C10T12,Food & beverages
+C13T15,Textiles & apparel
+C16,Wood products
+C17_18,Paper & printing
+C19,Petroleum products
+C20,Chemicals
+C21,Pharmaceuticals
+C22,Rubber & plastics
+C23,Non-metallic minerals
+C24A,Basic iron & steel
+C24B,Non-ferrous metals
+C25,Fabricated metals
+C26,Electronics
+C27,Electrical equipment
+C28,Machinery
+C29,Motor vehicles
+C301,Shipbuilding
+C302T309,Other transport equip.
+C31T33,Furniture & other manuf.
+D,Electricity & utilities
+E,Water & waste
+F,Construction
+G,Retail & vehicle repair
+H49,Land transport
+H50,Water transport
+H51,Air transport
+H52,Warehousing & support
+H53,Postal & courier
+I,Accommodation & food
+J58T60,Media & publishing
+J61,Telecom
+J62_63,IT services
+K,Finance & insurance
+L,Real estate
+M,Professional services
+N,Admin & support
+O,Public administration
+P,Education
+Q,Health & social work
+R,Arts & recreation
+S,Other services
+T,Household activities
